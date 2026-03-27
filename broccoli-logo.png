@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <circle cx="256" cy="256" r="256" fill="#2d6a4f"/>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stem (Thinner, with deep V-cuts for air) -->
+    <path d="M 225 430 
+             Q 256 445 287 430 
+             Q 295 360 345 270 
+             Q 295 310 275 350 
+             Q 265 290 256 250 
+             Q 245 290 237 350 
+             Q 215 310 167 270 
+             Q 217 360 225 430 Z" 
+          fill="#92D050" />
+    
+    <!-- Florets (Cloud - Asymmetrical) -->
+    <path d="M 160 290
+             A 65 65 0 0 1 110 180
+             A 85 85 0 0 1 240 100
+             A 65 65 0 0 1 350 130
+             A 70 70 0 0 1 400 240
+             A 55 55 0 0 1 330 300
+             A 60 60 0 0 1 250 285
+             A 55 55 0 0 1 160 290 Z"
+          fill="#2A9D48" />
+          
+    <!-- Inner details -->
+    <path d="M 150 220 Q 170 180 200 190" fill="none" stroke-width="10"/>
+    <path d="M 220 150 Q 250 130 280 150" fill="none" stroke-width="10"/>
+    <path d="M 320 170 Q 350 170 370 210" fill="none" stroke-width="10"/>
+    <path d="M 190 260 Q 210 240 230 270" fill="none" stroke-width="10"/>
+    <path d="M 290 260 Q 310 240 330 270" fill="none" stroke-width="10"/>
+  </g>
+</svg>
